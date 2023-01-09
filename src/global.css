@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "MonoLisa";
+    src: url("/public/assets/fonts/MonoLisa-Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "MonoLisa Bold";
+    src: url("/public/assets/fonts/MonoLisa-Bold.woff2") format("woff2");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #232B2B;
+    font-family: 'MonoLisa Bold', sans-serif;
+}
+/* 
+This hr element will display a horizontal line with a gradient background that animates continuously.
+The gradient transitions between four colors: #E39600, #EA4C89, #8F48EB, and #1DA1F2.
+This style will be applied to all hr elements unless overridden by component-specific CSS in the /component/divider/divider.tsx file.
+*/
+hr{
+  background-color: #eaeaea;
+  border: 0;
+  height: 1px;
+  margin-bottom: 24px;
+}
+
+@keyframes gradient {
+  0% {
+    background: linear-gradient(to right, #E39600, #EA4C89, #8F48EB, #1DA1F2);
+  }
+  25% {
+    background: linear-gradient(to right, #EA4C89, #8F48EB, #1DA1F2, #E39600);
+  }
+  50% {
+    background: linear-gradient(to right, #8F48EB, #1DA1F2, #E39600, #EA4C89);
+  }
+  75% {
+    background: linear-gradient(to right, #1DA1F2, #E39600, #EA4C89, #8F48EB);
+  }
+  100% {
+    background: linear-gradient(to right, #E39600, #EA4C89, #8F48EB, #1DA1F2);
+  }
+}
+p {
+    color: #6c6c6c;
+    display: block;
+    text-align: justify;
+}
+body {
+    font-family: 'MonoLisa', sans-serif;
+
+}
+.main-wrapper {
+    margin-top: 104px;
+    padding: 0 144px;
+  }
+  @media only screen and (max-width: 620px) {
+    .main-wrapper {
+      margin-top: 24px;
+    }
+  }
+  @media only screen and (max-width: 620px) {
+    .main-wrapper {
+      width: 100%;
+      overflow-x: hidden;
+      margin-top: 24px;
+      margin-right: 24px;
+      margin-left: 0;
+      padding-right: 24px;
+      padding-left: 24px;
+    }
+  }
+  
+a {
+
+    text-decoration: none;
+  }
+.content p a{
+  border-bottom-style: solid;
+}
+ol, ul {
+    padding: 0;
+    list-style: none;
+}
+  
+li {
+    list-style: none;
+}
+  
+*, :after, :before {
+    box-sizing: border-box;
+}

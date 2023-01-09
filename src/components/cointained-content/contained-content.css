@@ -1,0 +1,62 @@
+  .project-container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      align-content: center;
+      align-items: flex-start;
+      padding: 24px;
+      background-color: #fafafa;
+      border-width: 1px;
+      border-style: solid;
+      border-color: #eaeaea;
+      border-radius: 8px;
+    }
+    @media only screen and (max-width: 620px) {
+      .project-container {
+        flex-wrap: wrap;
+        align-content: flex-start;
+      }
+    }
+    .project-container:hover {
+      background-color: #f7f7f7;
+      border-color: #d9d9d9;
+    }
+    @media (prefers-color-scheme: dark) {
+      .project-container:hover {
+        background-color: #1e1e1e;
+        border-color: #242424;
+      }
+    }
+    .project-container .thumbnail {
+      order: 0;
+      flex: 0 1 auto;
+      align-self: auto;
+      margin-right: 24px;
+    }
+    @media only screen and (max-width: 620px) {
+      .project-container .thumbnail {
+        margin-right: 0;
+        margin-bottom: 0;
+      }
+    }
+    .project-container .thumbnail img {
+      max-width: 128px;
+      border-radius: 8px;
+    }
+    .project-container .detail {
+      order: 0;
+      flex: 1 1 auto;
+      align-self: auto;
+      color: #6c6c6c;
+    }
+
+    .project-container .detail .title {
+      display: inline-block;
+      margin-bottom: 4px;
+      font-weight: bold;
+      color: #242424;
+    }
+    .project-container .detail p {
+      line-height: 1.2rem;
+    }
