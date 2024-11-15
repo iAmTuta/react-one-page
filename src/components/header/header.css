@@ -53,36 +53,36 @@
   a{
     margin: 8px;    
   }
-  .icon {
-    color: #363636;
-    opacity: 0.8;
-    width: 28px;
-    height: 28px;
-    background-size: 28px;
-    /* margin: 8px; */
-    cursor: pointer;
-    padding-right: 18px;
-    display: inline-block;
-    position: relative;
-    background-position: center;
-    background-repeat: no-repeat;
-    text-indent: 100%;
-  }
-  .icon:hover{
-    opacity: 1;
-    border: #363636;
-    border-radius: 3px;
-    fill: #363636;
-  }
-  .icon-github {
-    background-image: url("/public/assets/svg/github.svg");
-  }
-  .icon-twitter{
-    background-image: url("/public/assets/svg/twitter.svg");
-  }
-  .TooltipMUI .MuiTooltip-tooltip{
-    font-size: 16px;
-  }
+  /*.icon {
+  /*  color: #363636;
+  /*  opacity: 0.8;
+  /*  width: 28px;
+  /*  height: 28px;
+  /*  background-size: 28px;
+  /*  /* margin: 8px; */
+  /*  cursor: pointer;
+  /*  padding-right: 18px;
+  /*  display: inline-block;
+  /*  position: relative;
+  /*  background-position: center;
+  /*  background-repeat: no-repeat;
+  /*  text-indent: 100%;
+  /*}
+  /*.icon:hover{
+  /*  opacity: 1;
+  /*  border: #363636;
+  /*  border-radius: 3px;
+  /*  fill: #363636;
+  /*}
+  /*.icon-github {
+  /*  background-image: url("/public/assets/svg/github.svg");
+  /*}
+  /*.icon-twitter{
+  /*  background-image: url("/public/assets/svg/twitter.svg");
+  /*}
+  /*.TooltipMUI .MuiTooltip-tooltip{
+  /*  font-size: 16px;
+  /*}*/
 
   @keyframes gradient {
     0% {
